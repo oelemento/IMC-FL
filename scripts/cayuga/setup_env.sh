@@ -4,7 +4,7 @@
 
 set -e
 
-# Install miniconda on /athena (not home dir, which has limited quota)
+# Install miniconda on <SCRATCH> (not home dir, which has limited quota)
 CONDA_DIR="<CONDA>"
 
 if [ ! -d "$CONDA_DIR" ]; then

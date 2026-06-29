@@ -7,7 +7,7 @@ Hyperion Imaging Mass Cytometry (IMC) of follicular lymphoma (FL) tissue microar
 **Data locations:**
 - Raw pixel exports (READ-ONLY): `<DATA_ROOT>/`
 - Processed data: `<PROJECT_ROOT>/`
-- Analysis code + local outputs: `/Users/ole2001/PROGRAMS/IMC-FL/`
+- Analysis code + local outputs: `<PROJECT_ROOT>/`
 
 **Clinical metadata:** ~130 patients, most received rituximab-based therapy. Patient IDs, FL grade, treatment history, and outcomes to be obtained.
 

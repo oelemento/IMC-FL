@@ -2,7 +2,7 @@
 """Re-annotate clusters with better cell type labels based on marker profiles."""
 
 import sys
-sys.path.insert(0, '/Users/ole2001/PROGRAMS/IMC-FL')
+sys.path.insert(0, '.')
 
 import matplotlib
 matplotlib.use('Agg')
@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 
-OUTPUT_DIR = Path('/Users/ole2001/PROGRAMS/IMC-FL/output')
+OUTPUT_DIR = Path('output')
 
 # Load clustered data
 adata = sc.read_h5ad(OUTPUT_DIR / 'FL01_clustered.h5ad')

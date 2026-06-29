@@ -709,10 +709,10 @@ def parameter_sweep(
 if __name__ == '__main__':
     # Quick test
     import sys
-    sys.path.insert(0, '/Users/ole2001/PROGRAMS/IMC-FL')
+    sys.path.insert(0, '.')
     from src.data_loader import load_roi_txt, list_rois, extract_sample_id
 
-    data_dir = Path('/Users/ole2001/PROGRAMS/IMC-FL/data/raw/TMA_B1_T')
+    data_dir = Path('data/raw/TMA_B1_T')
     files = list_rois(data_dir)
 
     print(f"Loading {files[0].name}...")
